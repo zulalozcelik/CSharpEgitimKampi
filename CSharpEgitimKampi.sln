@@ -11,10 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_MakingDecision", "03_Mak
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Loops", "04_Loops\04_Loops.csproj", "{A1A20AA3-EA5C-4138-80C8-0AF8AEA00EBD}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_LoopWithStarts", "05_LoopWithStarts\05_LoopWithStarts.csproj", "{A195C83E-C265-483C-B549-CDC8A9F50DA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Arrays", "06_Arrays\06_Arrays.csproj", "{0AE8DD57-5075-4D74-AEFB-33E6DCD85A86}"
 EndProject
+=======
+>>>>>>> 0bc4cf1490dbd260ea28a675ed5dc2a233b5b414
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +40,7 @@ Global
 		{A1A20AA3-EA5C-4138-80C8-0AF8AEA00EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1A20AA3-EA5C-4138-80C8-0AF8AEA00EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1A20AA3-EA5C-4138-80C8-0AF8AEA00EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{A195C83E-C265-483C-B549-CDC8A9F50DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A195C83E-C265-483C-B549-CDC8A9F50DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A195C83E-C265-483C-B549-CDC8A9F50DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +49,8 @@ Global
 		{0AE8DD57-5075-4D74-AEFB-33E6DCD85A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AE8DD57-5075-4D74-AEFB-33E6DCD85A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AE8DD57-5075-4D74-AEFB-33E6DCD85A86}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> 0bc4cf1490dbd260ea28a675ed5dc2a233b5b414
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
