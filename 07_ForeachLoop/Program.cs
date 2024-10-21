@@ -43,50 +43,50 @@ namespace _07_ForeachLoop
             #endregion
 
             #region Örnek Sınav Sistemi Uygulaması
-            Console.Write("********** C# Eğitim Kampı Sınav Uygulaması ************");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
+            //Console.Write("********** C# Eğitim Kampı Sınav Uygulaması ************");
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
 
-            Console.WriteLine("--------------------------------------------------");
-            Console.Write("Sınıfınızda Kaç Öğrenci Var : ");
-            int studentCount = int.Parse(Console.ReadLine());
-            Console.WriteLine("--------------------------------------------------");
+            //Console.WriteLine("--------------------------------------------------");
+            //Console.Write("Sınıfınızda Kaç Öğrenci Var : ");
+            //int studentCount = int.Parse(Console.ReadLine());
+            //Console.WriteLine("--------------------------------------------------");
             
-            string[] studentNames=new string[studentCount];
-            double [] studentExamAvg=new double[studentCount];
-            for (int i = 0; i < studentCount; i++)
-            {
-                Console.Write($"{i+ 1}. öğrencinin ismini giriniz : ");
-                studentNames[i] = Console.ReadLine();
-                double totalExamResult = 0;
+            //string[] studentNames=new string[studentCount];
+            //double [] studentExamAvg=new double[studentCount];
+            //for (int i = 0; i < studentCount; i++)
+            //{
+            //    Console.Write($"{i+ 1}. öğrencinin ismini giriniz : ");
+            //    studentNames[i] = Console.ReadLine();
+            //    double totalExamResult = 0;
 
-                for (int j = 0; j <=2; j++)
-                {
-                    Console.Write($"{studentNames[i]} adlı öğrencinin {j+1}.sınav notunu giriniz:");
-                    double value = double.Parse(Console.ReadLine());
-                    totalExamResult += value;
-                }
-                studentExamAvg[i] = totalExamResult / 3;
-            }
-            for (int i = 0; i < studentCount; i++)
-            {
-                Console.WriteLine($"{studentNames[i]} adlı öğrencinin ortalaması: {studentExamAvg[i]}");
-                if (studentExamAvg[i] >= 50)
-                {
-                    Console.WriteLine($"{studentNames[i]} adlı öğrenci dersi geçti");
-                }
-                else
-                {
-                    Console.WriteLine($"{studentNames[i]} adlı öğrenci dersten kaldı");
-                }
-                Console.WriteLine("-------------------------------------------------");
-            }
+            //    for (int j = 0; j <=2; j++)
+            //    {
+            //        Console.Write($"{studentNames[i]} adlı öğrencinin {j+1}.sınav notunu giriniz:");
+            //        double value = double.Parse(Console.ReadLine());
+            //        totalExamResult += value;
+            //    }
+            //    studentExamAvg[i] = totalExamResult / 3;
+            //}
+            //for (int i = 0; i < studentCount; i++)
+            //{
+            //    Console.WriteLine($"{studentNames[i]} adlı öğrencinin ortalaması: {studentExamAvg[i]}");
+            //    if (studentExamAvg[i] >= 50)
+            //    {
+            //        Console.WriteLine($"{studentNames[i]} adlı öğrenci dersi geçti");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"{studentNames[i]} adlı öğrenci dersten kaldı");
+            //    }
+            //    Console.WriteLine("-------------------------------------------------");
+            //}
             
             #endregion
-            Console.Read();
+            //Console.Read();
 
         }
     }
