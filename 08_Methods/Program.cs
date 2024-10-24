@@ -90,21 +90,23 @@ namespace _08_Methods
 
             #region geriye değer döndüren int parametreli metotlar
 
-            string ExamResult(string student, int exam1, int exam2)
-            {
-                int result = (exam1 + exam2) / 2;
-                if (result >= 50) 
-                {
-                    return student + " isimli öğrenci sınavı geçti";
-                }
-                else 
-                {
-                    return student + "isimli öğrenci başarısız oldu";
-                }
-            }
+            //string ExamResult(string student, int exam1, int exam2)
+            //{
+            //    int result = (exam1 + exam2) / 2;
+            //    if (result >= 50) 
+            //    {
+            //        return student + " isimli öğrenci sınavı geçti";
+            //    }
+            //    else 
+            //    {
+            //        return student + " isimli öğrenci başarısız oldu";
+            //    }
+            //}
 
-            Console.WriteLine(ExamResult("Ali", 24,95));
+            //Console.WriteLine(ExamResult("Ali", 24,95));
             #endregion
+
+
 
             Console.Read();
 
