@@ -5,7 +5,8 @@ I had the opportunity to improve myself more than I expected in this camp, which
 Project 1: Main Subjects
 In this project, I learned how to print what I want to the console and how to use int and string variable types.
 
-Project 2: Variables /n
+Project 2: Variables 
+
 In this project, I learned how to input variables such as double char string from the user and use them in the program.
 
 Project 3: Making Decision
